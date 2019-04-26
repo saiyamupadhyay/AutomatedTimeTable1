@@ -1,0 +1,82 @@
+body
+{ 
+	background-color: lightgray;
+}
+.logintable
+{
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.logintable tr td
+{
+	font-family:'Josefin Sans', sans-serif;
+        font-size: 20px;
+}
+.button
+{             
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.submit
+{
+        padding: 8px 24px;
+        font-size: 50px;
+	background-color: white;
+  	color: black;
+  	border: 2px solid #4CAF50;
+	font-size: 20px;
+	border-radius: 12px;		
+}
+.reset
+{       
+        padding: 8px 24px;
+	background-color: white;
+  	color: black;
+  	border: 2px solid steelblue;
+	font-size: 20px;	
+	border-radius: 12px;
+}
+.new_user
+{
+        padding: 8px 24px;
+	background-color: white;
+  	color: black;
+  	border: 2px solid black;
+	font-size: 20px;	
+	border-radius: 12px
+}
+.logintable input[type=text]
+{
+	border : 2px solid black;
+	border-radius: 4px;
+        padding: 5px 24px;
+}
+.logintable input[type=password]
+{       
+        padding: 5px 24px;
+	border : 2px solid black;
+	border-radius: 4px;	
+}
+.submit:hover
+{
+    box-shadow: 0 12px 16px 0 lightgreen;
+}
+.reset:hover
+{
+    box-shadow: 0 12px 16px 0 steelblue;
+}
+.new_user:hover
+{
+    box-shadow: 0 12px 16px 0 black;
+}
+.Form
+{
+   background: white;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 300px;
+  margin: 20px auto 0;
+  width: 370px;
+  margin-left: 40%;
+  margin-top: 50px;
+}

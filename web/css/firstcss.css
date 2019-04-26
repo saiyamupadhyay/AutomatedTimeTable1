@@ -1,0 +1,39 @@
+.button
+{
+	margin-top: 15%;
+	margin-left: 40%;
+}
+.admin
+{
+	background-color: white;
+  	color: black;
+  	border: 2px solid #4CAF50;
+	font-size: 40px;
+	border-radius: 12px;		
+}
+.teacher
+{
+	background-color: white;
+  	color: black;
+  	border: 2px solid steelblue;
+	font-size: 40px;	
+	border-radius: 12px;
+}
+.admin:hover
+{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 lightgreen; 
+}
+.teacher:hover
+{
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 steelblue;
+}
+body
+{
+    background-color: lightgray;
+}
+
+
