@@ -13,10 +13,36 @@
         <link rel="stylesheet" type="text/css" href="css/firstcss.css">
     </head>
     <body>
-          <form name="FirstForm"> 
+        <div id="wallpaper">
+            <img src="img/wallpaper.jpg" alt="wallpaper" class="img1"/>
+            
+		<div class="text">
+			<h1 class="text1">AUTOMATED TIME TABLE GENERATOR</h1>
+		</div>
+		
+		
+	<div class="navigator">
+	<nav class="navigator1">
+		<a href=""><div class="head">
+                    <div class="dropdown">
+                    <button class="dropbtn">Sign Up</button>
+                    <div class="dropdown-content">
+                    <a href="AdminLogin_jsp.jsp">Admin</a>
+                    <a href="TeacherLogin_jsp.jsp">Staff</a>
+                    
+                    </div>
+                    </div>
+                    </div></a>
+		<a href=""><div class="head">Contact</div></a>
+		<a href=""><div class="head">About us</div></a>
+		<a href=""><div class="head">Home</div></a>
+	</nav>
+        </div>
+        </div>
+        <form name="FirstForm"> 
             <div class="button">
             <input type="button" value="Admin" name="admin"  class="admin" onclick=" window.location='AdminLogin_jsp.jsp'" >
-            <input type="button" value="Teacher" name="Teacher"  class="teacher" onclick=" window.location='TeacherLogin_jsp.jsp'">
+            <input type="button" value="Staff" name="staff"  class="teacher" onclick=" window.location='TeacherLogin_jsp.jsp'">
             </div>
         </form>
         

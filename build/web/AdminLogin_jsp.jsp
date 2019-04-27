@@ -14,13 +14,13 @@
          <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     </head>
     <body>
-        <div class ="Form">
+         <div class ="Form">
         <form name="myForm">
             <table border="0" class="logintable">
                 <tbody>
                     <tr>
-                        <td>User Name :</td>
-                        <td><input type="text" name="uname" value="" size="20" /></td>
+                        <td> Id :</td>
+                        <td><input type="text" name="id" value="" size="20" /></td>
                     </tr>
                     <tr>
                         <td>Password :</td>
@@ -40,5 +40,6 @@
             </div>
         </form>
         </div>
+        
     </body>
 </html>
