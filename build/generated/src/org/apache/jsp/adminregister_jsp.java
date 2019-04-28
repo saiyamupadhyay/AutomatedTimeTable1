@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class firstjsp_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class adminregister_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -41,15 +41,18 @@ public final class firstjsp_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
       out.write("<head>\n");
-      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css\">\n");
-      out.write("    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n");
-      out.write("    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/firstcss.css\">\n");
-      out.write("    <title></title>\n");
+      out.write("\t<title>\n");
+      out.write("\t</title>\n");
+      out.write("        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css\">\n");
+      out.write("        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n");
+      out.write("    \n");
+      out.write("\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/register.css\">\n");
+      out.write("\n");
       out.write("</head>\n");
       out.write("<body>\n");
+      out.write("\t \n");
       out.write("<nav class=\"navbar navbar-expand navbar-dark bg-dark \">\n");
       out.write("  <a class=\"navbar-brand\" href=\"#\">Automated Time Table</a>\n");
       out.write("    <ul class=\"navbar-nav ml-auto\">\n");
@@ -76,26 +79,49 @@ public final class firstjsp_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<div class=\"container-fluid\">\n");
       out.write("  <div class=\"row\">\n");
       out.write("    <div class=\"col-md-12\">\n");
-      out.write("      <form name=\"FirstForm\"> \n");
-      out.write("            <div class=\"button\">\n");
-      out.write("            <input type=\"button\" value=\"Admin\" name=\"admin\"  class=\"admin\" onclick=\" window.location='AdminLogin_jsp.jsp'\" >\n");
-      out.write("            <input type=\"button\" value=\"Staff\" name=\"staff\"  class=\"teacher\" onclick=\" window.location='TeacherLogin_jsp.jsp'\">\n");
-      out.write("            </div>\n");
-      out.write("        </form>\n");
       out.write("\n");
-      out.write("    </div>\n");
-      out.write("    \n");
-      out.write("  </div>\n");
-      out.write("  \n");
+      out.write("<div class=\"RegForm\">\n");
+      out.write("            <h3><center>Register your details</center></h3>\n");
+      out.write("                <form name=\"AdminRegister\">            \n");
+      out.write("\t\t\t<table border=\"0\" class=\"regtable\">\n");
+      out.write("\t\t\t\t\n");
+      out.write("\t\t\t\t<tr>\n");
+      out.write("\t\t\t\t\t\n");
+      out.write("                                    <td><input type=\"text\" name=\"adname\" size=\"20\" placeholder=\"Name\"></td>\n");
+      out.write("\t\t\t\t</tr>\n");
+      out.write("\t\t\t\t<tr>\n");
+      out.write("\t\t\t\t\t\n");
+      out.write("                                        <td><input type=\"text\" name=\"adid\" size=\"20\" placeholder=\"Admin ID\"></td>\n");
+      out.write("\t\t\t\t</tr>\n");
+      out.write("\t\t\t\t<tr>\n");
+      out.write("\t\t\t\t\t\n");
+      out.write("                                    <td><input type=\"text\" name=\"admail\" size=\"20\" placeholder=\"Email id\"></td>\n");
+      out.write("\t\t\t\t</tr>\n");
+      out.write("\t\t\t\t<tr>\n");
+      out.write("\t\t\t\t\t\n");
+      out.write("                                    <td><input type=\"text\" name=\"adpwd\" size=\"20\" placeholder=\"Password\"></td>\n");
+      out.write("\t\t\t\t</tr>\n");
+      out.write("\t\t\t\t<tr>\n");
+      out.write("\t\t\t\t\t\n");
+      out.write("                                    <td><input type=\"text\" name=\"adprwd\" size=\"20\" placeholder=\"Reset Password\"></td>\n");
+      out.write("\t\t\t\t</tr>\n");
+      out.write("                                </table>\n");
+      out.write("\t\t\t\t<div class=\"button\">\n");
+      out.write("                                    <input type=\"button\" value=\"Submit\" name=\"submit\"  class=\"submit\">\n");
+      out.write("                                </div>\t\t\t\n");
+      out.write("\t\t</form>\n");
       out.write("</div>\n");
-      out.write("</body>\n");
+      out.write("    </div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("\t</body>\n");
+      out.write("        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n");
       out.write("\n");
-      out.write("<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\n");
+      out.write("        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js\"></script>\n");
       out.write("\n");
-      out.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js\"></script>\n");
+      out.write("        <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js\"></script> \n");
       out.write("\n");
-      out.write("<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js\"></script> \n");
-      out.write("</html>");
+      out.write("\t</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

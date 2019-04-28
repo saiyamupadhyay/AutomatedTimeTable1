@@ -1,0 +1,77 @@
+body
+{ 
+  background-color: #606468;
+}
+.navbar
+{
+  height: 110px;
+}
+.navbar-brand
+{
+  font-size: 50px;
+}
+.nav-item
+{
+  font-size: 20px;
+}
+.header
+{
+    margin-top: 8px;
+    font-family:'Josefin Sans', sans-serif;
+}
+.regtable
+{
+    margin-left: 55px;
+    margin-top: 22px;
+
+}
+.regtable tr td
+{
+	font-family:'Josefin Sans', sans-serif;
+        font-size: 20px;
+}
+.button
+{             
+	margin-left: 240px;
+	margin-top: 20px;
+}
+.submit
+{
+        padding: 8px 24px;
+        font-size: 50px;
+         background-color: white;
+         color: black;
+         border: 2px solid #4CAF50;
+         font-size: 20px;
+         border-radius: 12px;
+}
+.RegForm
+{
+   background: white;
+   border: 1px solid #42464b;
+  border-radius: 14px;
+  height: 360px;
+  margin: 20px auto 0;
+  width: 400px;
+  margin-left: 36%;
+  margin-top: 70px;
+}
+.regtable input[type=text]
+{
+	 margin-top: 2px;
+         border : 2px solid black;
+         border-radius: 4px;
+         padding: 5px 24px;
+       
+}
+.regtable input[type=password]
+{       
+  margin-top: 2px;
+  border : 2px solid black;
+  border-radius: 4px;
+  padding: 5px 24px;
+}
+.submit:hover
+{
+    box-shadow: 0 12px 16px 0 lightgreen;
+}

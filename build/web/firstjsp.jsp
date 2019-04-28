@@ -1,50 +1,55 @@
-<%-- 
-    Document   : firstjsp
-    Created on : 25 Apr, 2019, 11:36:31 PM
-    Author     : User
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Automated TimeTable</title>
-        <link rel="stylesheet" type="text/css" href="css/firstcss.css">
-    </head>
-    <body>
-        <div id="wallpaper">
-            <img src="img/wallpaper.jpg" alt="wallpaper" class="img1"/>
-            
-		<div class="text">
-			<h1 class="text1">AUTOMATED TIME TABLE GENERATOR</h1>
-		</div>
-		
-		
-	<div class="navigator">
-	<nav class="navigator1">
-		<a href=""><div class="head">
-                    <div class="dropdown">
-                    <button class="dropbtn">Sign Up</button>
-                    <div class="dropdown-content">
-                    <a href="AdminLogin_jsp.jsp">Admin</a>
-                    <a href="TeacherLogin_jsp.jsp">Staff</a>
-                    
-                    </div>
-                    </div>
-                    </div></a>
-		<a href=""><div class="head">Contact</div></a>
-		<a href=""><div class="head">About us</div></a>
-		<a href=""><div class="head">Home</div></a>
-	</nav>
-        </div>
-        </div>
-        <form name="FirstForm"> 
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/firstcss.css">
+    <title></title>
+</head>
+<body>
+<nav class="navbar navbar-expand navbar-dark bg-dark ">
+  <a class="navbar-brand" href="#">Automated Time Table</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#skills">About us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Contact us<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sign up
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="adminregister.jsp">Admin</a>
+          <a class="dropdown-item" href="staffregister.jsp">Staff</a>
+          </div>
+        </li>      
+    </ul>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <form name="FirstForm"> 
             <div class="button">
             <input type="button" value="Admin" name="admin"  class="admin" onclick=" window.location='AdminLogin_jsp.jsp'" >
             <input type="button" value="Staff" name="staff"  class="teacher" onclick=" window.location='TeacherLogin_jsp.jsp'">
             </div>
         </form>
-        
-    </body>
+
+    </div>
+    
+  </div>
+  
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script> 
 </html>
